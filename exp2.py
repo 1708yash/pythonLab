@@ -1,8 +1,7 @@
 # implement data structure
 #stack
 #queue
-#linked list
-
+#linked listSA
 #code for stack
 print("Stack");
 class Stack:
@@ -23,6 +22,10 @@ stack1.push(1);
 stack1.push(2);
 stack1.push(3);
 stack1.display();
+
+
+
+
 
 #queue 
 print("Queue");
@@ -48,12 +51,18 @@ queue1.display();
 
 
 
+
+
+
+
+
+
+
 #linked list
 class Node:
     def __init__(self,data):
         self.data = data;
         self.next = None;
-
 # linked list
 print("Linked list");
 class LinkedList:
